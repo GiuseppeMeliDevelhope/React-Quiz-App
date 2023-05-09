@@ -1,6 +1,17 @@
 export const jsQuizz = {
     questions: [
       {
+        question: "What is ReactJS?",
+        choices: [
+          "Server-side framework",
+          "User Interface framework",
+          "both a and b",
+          "None of the above",
+        ],
+        type: "MCQs",
+        correctAnswer: "User Interface framework",
+      },
+      {
         question:
           "Which of the following is used in React.js to increase performance?",
         choices: [
@@ -13,15 +24,10 @@ export const jsQuizz = {
         correctAnswer: "Virtual DOM",
       },
       {
-        question: "What is ReactJS?",
-        choices: [
-          "Server-side framework",
-          "User Interface framework",
-          "both a and b",
-          "None of the above",
-        ],
-        type: "MCQs",
-        correctAnswer: "User Interface framework",
+        question: "What means JSX?",
+       
+        type: "FIB",
+        correctAnswer: "JavaScript XML",
       },
       {
         question:
